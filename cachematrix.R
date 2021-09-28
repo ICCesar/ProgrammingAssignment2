@@ -3,7 +3,6 @@
 ##### stores, and  inverse the matrix. The second
 ##### function takes the results from make_cash_matrix
 
-
 #### Matrix function: The function creates a matrix and the inverse is cached
 make_cache_matrix <- function(matrix_variables = matrix()) {
 
