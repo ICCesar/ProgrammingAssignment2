@@ -1,9 +1,9 @@
-##### Assignment number 2 for R Programming. This is an R
-##### script for two functions. First function makes,
-##### stores, and  inverse the matrix. The second
-##### function takes the results from make_cash_matrix
+# Assignment number 2 for R Programming. This is an R
+# script for two functions. First function makes,
+# stores, and  inverse the matrix. The second
+# function takes the results from make_cash_matrix
 
-#### Matrix function: The function creates a matrix and the inverse is cached
+## Matrix function: The function creates a matrix and the inverse is cached
 make_cache_matrix <- function(matrix_variables = matrix()) {
 
     inverse_matrix <- NULL
@@ -28,7 +28,7 @@ make_cache_matrix <- function(matrix_variables = matrix()) {
          getInverse = getInverse)
 }
 
-##### Calculates in verse of the matrix created by make_cache_matrix.
+## Calculates in verse of the matrix created by make_cache_matrix.
 cache_solve <- function(x, ...) {
 
     ### Return a matrix that is the inverse of 'x'
