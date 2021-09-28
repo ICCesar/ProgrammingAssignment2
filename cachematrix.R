@@ -10,8 +10,8 @@ make_cache_matrix <- function(matrix_variables = matrix()) {
     inverse_matrix <- NULL
 
     set <- function(matrix) {
-            matrix_variables <<- matrix
-            inverse_matrix <<- NULL
+        matrix_variables <<- matrix
+        inverse_matrix <<- NULL
     }
     set_inverse <- function(inverse) {
         inverse_matrix <<- inverse
